@@ -29,7 +29,13 @@
           >
             Delete
           </button>
-          <button class="btn btn-sm btn-dark m-1">Edit</button>
+          <button class="btn btn-sm btn-dark m-1">
+            <router-link
+              class="text-decoration-none text-light"
+              :to="`/edit/${user.id}`"
+            >
+            Edit </router-link>
+          </button>
           <button class="btn btn-sm btn-info m-1">
             <router-link
               class="text-decoration-none text-light"
