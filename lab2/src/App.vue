@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <navbarApp v-if="!$route.meta.hideNavbar"/>
     <router-view></router-view>
   </div>
@@ -17,4 +17,9 @@ export default {
 </script>
 
 <style>
+.body{
+  background: url("assets/4660795.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
 </style>

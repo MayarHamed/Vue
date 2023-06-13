@@ -1,4 +1,5 @@
 <template>
+  <div class="main">
   <div class="d-flex justify-content-center">
     <div
       class="card rounded bg-secondary shadow-lg text-light text-center w-50 p-2"
@@ -29,7 +30,7 @@
         </div>
       </form>
     </div>
-  </div>
+  </div></div>
 </template>
   
   <script>
@@ -65,6 +66,9 @@ export default {
 .form-group {
   justify-content: space-evenly;
   align-content: center;
+}
+.main{
+  height: 100vh;
 }
 </style>
   

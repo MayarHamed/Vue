@@ -1,4 +1,5 @@
 <template>
+  <div class="main">
   <div class="d-flex justify-content-center ">
     <div class="crad rounded bg-secondary shadow-lg text-light text-center w-25 m-2">
       <div class="card-header m-2">
@@ -13,7 +14,7 @@
         <p><img class="w-25" src="../assets/gender.png" /> {{ user.gender }}</p>
       </div>
     </div>
-  </div>
+  </div></div>
 </template>
 
 <script>
@@ -51,5 +52,8 @@ export default {
 .id {
   background: rgba(82, 150, 192, 0.763);
   width: fit-content;
+}
+.main{
+  height: 100vh;
 }
 </style>
